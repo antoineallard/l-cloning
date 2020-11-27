@@ -94,7 +94,7 @@ def save_lcloned_edgelist(original_el_fname, l_cloned_el_fname, L,
                     # Shuffles the layers.
                     rnd.shuffle(shuffled_layer_id)
                     # Write the resulting edges into the output file.
-                    for n in range(nb_copies):
+                    for n in range(L):
                         output_file.write("{:>20}".format(sline[0] + "_" +
                                           str(n)) + " ")
                         output_file.write("{:>20}".format(sline[1] + "_" +
