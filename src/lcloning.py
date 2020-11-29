@@ -38,7 +38,7 @@ def save_lcloned_edgelist(original_el_fname, l_cloned_el_fname, L,
     """Generates a L-cloned edgelist from an existing edgelist.
 
     This function reads a textfile in which each line corresponds to an
-    undirected edge. The name of the two vertices are threated as strings and
+    undirected edge. The name of the two vertices are treated as strings and
     must correspond to the first two columns of each line.
 
     The resulting edgelist is written into a similar textfile where the name of
@@ -53,7 +53,10 @@ def save_lcloned_edgelist(original_el_fname, l_cloned_el_fname, L,
     Parameters
     ----------
     original_el_fname : string
-        path to the file containing the original edgelist
+        path to the file containing the original edgelistin which each line
+        corresponds to an undirected edge. The name of the two vertices are
+        treated as strings and must correspond to the first two columns of
+        each line.
     l_cloned_el_fname : string
         path to the file that will contain the L-cloned edgelist
     L : int
