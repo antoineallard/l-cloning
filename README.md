@@ -29,7 +29,7 @@ header : bool (optional; default: True)
 ```
 or can be executed by running
 ```python
-run lcloning.py original_el_fname l_cloned_el_fname L
+python lcloning.py original_el_fname l_cloned_el_fname L
 ```
 
 See the validation notebook for further examples.
